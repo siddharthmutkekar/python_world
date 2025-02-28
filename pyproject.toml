@@ -1,9 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
 name = "python_world"
 version = "0.0.1"
-description = "Example python_world project"
-authors = ["Siddharth <siddharth.git@gmail.com>"]
-license = "GPL-3.0"
+authors = [
+  { name="Example Author", email="siddharth.git@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
 
-
-[build-system]
-
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
