@@ -11,7 +11,7 @@ setuptools.setup(
     description="A function that returns 'world'",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.ibm.com/SiddharthMutkekar/python_world",
+    url="https://github.com/SiddharthMutkekar/python_world",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
