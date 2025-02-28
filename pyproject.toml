@@ -1,0 +1,9 @@
+name = "python_world"
+version = "0.0.1"
+description = "Example python_world project"
+authors = ["Siddharth <siddharth.git@gmail.com>"]
+license = "GPL-3.0"
+
+
+[build-system]
+
